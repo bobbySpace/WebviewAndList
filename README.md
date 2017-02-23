@@ -10,6 +10,7 @@ ViewGroup.LayoutParams lp =newViewGroup.LayoutParams(ViewGroup.LayoutParams.MATC
 WebView web =newWebView(parent.getContext());
 
 web.setLayoutParams(lp);
+
 需要把WebView撑开，保证WebView的内容完全展示。
 
 2、ScrollView模式：最外层用NestedScrollView容器，内层放一个LinearLayout,从上到下依次是WebView和RecyclerView;
